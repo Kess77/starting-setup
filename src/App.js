@@ -29,6 +29,7 @@ function App() {
     console.log('in app');
     console.log(expenses);
   }
+ 
   return (
     <div>
      

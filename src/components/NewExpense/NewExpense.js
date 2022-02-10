@@ -12,6 +12,7 @@ const NewExpense = (props)=>{
             ...enteredExpenseData,
             id: Math.random().toString()
         };
+        // les données envoye à App.Js
         props.onAddExpense(expenseData);
     };
 
